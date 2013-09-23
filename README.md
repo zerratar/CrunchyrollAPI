@@ -31,6 +31,7 @@ An open source Crunchyroll API made in C#
   
   * **GetMediaStream( mediaId/episodeId )**
     - [Required, you silly!] mediaId
+	
 	Gives you a list of different available streams and video qualities.
 	NOTE: StartSession must have been used before this request	
 
@@ -42,7 +43,7 @@ An open source Crunchyroll API made in C#
  the code is pretty much cross-platform between the different devices WP7, WP8 and even Win8 Store App. 
  So all you have to do is to rebuild the different projects. (I'm not able to try it out atm, it could give you them horrible errors)
 
- ==============
+==============
  
  HOW TO USE
  
@@ -50,13 +51,12 @@ An open source Crunchyroll API made in C#
   Just a few simple steps and you should be all goody!
   
   1. Add the library (after build preferrably) as reference to your Visual Studio 2010/2012 project. (This is library is built using .NET Framework 4.5 though, so Visual Studio 2012 is recommended)
-     (Q. Will Express version of Visual Studio work?? -- A. No idea what so ever, but why dont you just try it instead of reading this answer?)
-	^
-	|__ lol :D
 
   2. magic!
  
- C# EXAMPLE  
+C# EXAMPLE  
+
+==============
 
 using System;
 using System.Collections.Generic;
@@ -118,9 +118,11 @@ namespace ConsoleApplication1
     }
 }
  
- -------- Since i havnt used VB in ages, can't say for sure how to use the Async part there, therefor i'm not providing an example for it. BUT! I guess it should work :p
+==============
+Since i havnt used VB in ages, can't say for sure how to use the Async part there, therefor i'm not providing an example for it. BUT! I guess it should work :p
 
+==============
 
- -- I hope you enjoyed this thing, even though its not complete and would need some time to refactor the code, pretty sloppy atm (i just wanted it to work xD)
- -- Got questions? e-mail meeee! 
-  - zerratar@gmail.com or kpj@fingerfeat.com either works good!
+I hope you enjoyed this thing, even though its not complete and would need some time to refactor the code, pretty sloppy atm (i just wanted it to work xD)
+Got questions? e-mail meeee! 
+zerratar@gmail.com or kpj@fingerfeat.com either works good!
