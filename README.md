@@ -7,35 +7,34 @@ An open source Crunchyroll API made in C#
  This wrapper is not complete, but all the "important" functionality
  is available. 
 
- -------------- Some of the magic -------------------
+  Some of the magic
   
-    # Logs you in, MUST BE DONE before anything else. Otherwise the other requests wont have any effect :p
+  Logs you in, MUST BE DONE before anything else. Otherwise the other requests wont have any effect :p
   * Login( user, pass )
 
-    # This will start the session, also required to get stream data
+  This will start the session, also required to get stream data
   * StartSession()
 
-    # Gives you a list of available series that you can watch, given the type of account you got.
+  Gives you a list of available series that you can watch, given the type of account you got.
   * GetSeriesList( mediaType, filter, offset, limit )
     - [Optional] mediaType can be either "drama" or "anime"
     - [Optional] filter is the different type of categories, such as "adventure", "action", etc.. 
     - offset, i suggest using 0 if you're not sure.
     - limit, how many series will be in the response, use 0 for all.
 
-    # Gives you a list of episodes a specific serie has
+  Gives you a list of episodes a specific serie has
   * GetMediaList( collectionId, seriesId, sort, offset, limit )
     - [Optional] collectionId
     - [Required] seriesId
     - [Optional] offset
     - [Optional] limit
 
-    # Gives you a list of different available streams and video qualities.
-    # NOTE: StartSession must have been used before this request
+  Gives you a list of different available streams and video qualities.
+  NOTE: StartSession must have been used before this request
   * GetMediaStream( mediaId/episodeId )
     - [Required, you silly!] mediaId
 
- ----------------------------------------------------
-
+==============
  The unfortenate part. I'm not able to create a WP8 specific project at this time as I'm not currently
  using a Windows 8 installation, the Windows Store App Lib however is available as I had time to do it earlier =)
  
@@ -43,8 +42,10 @@ An open source Crunchyroll API made in C#
  the code is pretty much cross-platform between the different devices WP7, WP8 and even Win8 Store App. 
  So all you have to do is to rebuild the different projects. (I'm not able to try it out atm, it could give you them horrible errors)
 
- ------------- EXAMPLE OF USAGE ---------------------
-  
+ ==============
+ 
+ HOW TO USE
+ 
   Here goes nothing!!
   Just a few simple steps and you should be all goody!
   
@@ -55,7 +56,7 @@ An open source Crunchyroll API made in C#
 
   2. magic!
  
- ------------ C# EXAMPLE -----------------------------   
+ C# EXAMPLE  
 
 using System;
 using System.Collections.Generic;
