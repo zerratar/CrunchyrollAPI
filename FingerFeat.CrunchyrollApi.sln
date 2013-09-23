@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FingerFeat.CrunchyrollApi", "FingerFeat.CrunchyrollApi\FingerFeat.CrunchyrollApi.csproj", "{9DF6F78D-0A25-4DF4-BFDF-4A1CCFFE75EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FingerFeat.CrunchyrollApi.Sample", "FingerFeat.CrunchyrollApi.Sample\FingerFeat.CrunchyrollApi.Sample.csproj", "{1C142539-B2B2-4D5C-8B13-FF2DF5F1B8C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DF6F78D-0A25-4DF4-BFDF-4A1CCFFE75EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF6F78D-0A25-4DF4-BFDF-4A1CCFFE75EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF6F78D-0A25-4DF4-BFDF-4A1CCFFE75EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF6F78D-0A25-4DF4-BFDF-4A1CCFFE75EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C142539-B2B2-4D5C-8B13-FF2DF5F1B8C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C142539-B2B2-4D5C-8B13-FF2DF5F1B8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C142539-B2B2-4D5C-8B13-FF2DF5F1B8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C142539-B2B2-4D5C-8B13-FF2DF5F1B8C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
