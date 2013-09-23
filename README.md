@@ -8,9 +8,11 @@ An open source Crunchyroll API made in C#
  is available. 
   
   * **Login( user, pass )**
+  
 	Logs you in, MUST BE DONE before anything else. Otherwise the other requests wont have any effect :p
 	  
   * **StartSession()**
+  
 	This will start the session, also required to get stream data
     
   * **GetSeriesList( mediaType, filter, offset, limit )**
@@ -18,6 +20,7 @@ An open source Crunchyroll API made in C#
     - [Optional] filter is the different type of categories, such as "adventure", "action", etc.. 
     - offset, i suggest using 0 if you're not sure.
     - limit, how many series will be in the response, use 0 for all.	
+	
 	Gives you a list of available series that you can watch, given the type of account you got.
 	
   
@@ -26,6 +29,7 @@ An open source Crunchyroll API made in C#
     - [Required] seriesId
     - [Optional] offset
     - [Optional] limit
+
 	Gives you a list of episodes a specific serie has
 
   
@@ -36,10 +40,7 @@ An open source Crunchyroll API made in C#
 	NOTE: StartSession must have been used before this request	
 
 ==============
- The unfortenate part. I'm not able to create a WP8 specific project at this time as I'm not currently
- using a Windows 8 installation, the Windows Store App Lib however is available as I had time to do it earlier =)
- 
- Now for the fortunate part,
+
  the code is pretty much cross-platform between the different devices WP7, WP8 and even Win8 Store App. 
  So all you have to do is to rebuild the different projects. (I'm not able to try it out atm, it could give you them horrible errors)
 
