@@ -8,8 +8,8 @@ namespace FingerFeat.CrunchyrollApi
 {
     public class CrunchyrollSessionHandler
     {
-        private string _formHandlerUrl = "https://www.Crunchyroll.com/ajax/";//"http://www.Crunchyroll.com/?a=formhandler";
-        private string _logoutUrl = "http://www.Crunchyroll.com/logout";
+        private static string _formHandlerUrl = "https://www.Crunchyroll.com/ajax/";//"http://www.Crunchyroll.com/?a=formhandler";
+        private static string _logoutUrl = "http://www.Crunchyroll.com/logout";
         private string _user;
         private string _pass;
         private CookieContainer _sessionCookies;
@@ -43,16 +43,16 @@ namespace FingerFeat.CrunchyrollApi
         }
 
 
-        public async void Logout()
+        public static async void Logout()
         {
             try
             {
-                _sessionCookies = new CookieContainer();
+                var _sessionCookies = new CookieContainer();
 
                 var logoutReq = WebRequest.Create(_logoutUrl);
                 logoutReq.Method = "GET";
                 await logoutReq.GetResponseAsync();
-                IsLoggedIn = false;
+               // IsLoggedIn = false;
             }
             catch { }
         }

@@ -55,6 +55,8 @@ namespace FingerFeat.CrunchyrollApi.Classes
             return streamData;
         }
 
+
+
         public async void StartSession()
         {
             try
@@ -132,6 +134,11 @@ namespace FingerFeat.CrunchyrollApi.Classes
             }
             return new List<Series>();
         }
+
+		public void Logout()
+		{
+			CrunchyrollSessionHandler.Logout();
+		}
 
         public async Task<bool> Login(string username, string password)
         {

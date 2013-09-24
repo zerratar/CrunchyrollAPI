@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FingerFeat.CrunchyrollApi.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FingerFeat.CrunchyrollApi.WP7Lib", "WP7\FingerFeat.CrunchyrollApi.WP7Lib.csproj", "{AC6EA489-3011-490D-BC15-80AA96339D33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FingerFeat.CrunchyrollApi.AdvancedSample", "FingerFeat.CrunchyrollApi.AdvancedSample\FingerFeat.CrunchyrollApi.AdvancedSample.csproj", "{A3632C2C-9A2A-49BB-949D-9C1E3B141CE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{AC6EA489-3011-490D-BC15-80AA96339D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC6EA489-3011-490D-BC15-80AA96339D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC6EA489-3011-490D-BC15-80AA96339D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3632C2C-9A2A-49BB-949D-9C1E3B141CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3632C2C-9A2A-49BB-949D-9C1E3B141CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3632C2C-9A2A-49BB-949D-9C1E3B141CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3632C2C-9A2A-49BB-949D-9C1E3B141CE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
