@@ -124,6 +124,7 @@ namespace ConsoleApplication1
 ```
  
 ==============
+
 Since i havnt used VB in ages, can't say for sure how to use the Async part there, therefor i'm not providing an example for it. BUT! I guess it should work :p
 
 ==============
